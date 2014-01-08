@@ -210,7 +210,9 @@ uses
 {$IFDEF DBEXPRESS}
   SQLExpr,
 {$ENDIF}
-{$IFNDEF FPC}
+{$IFDEF FPC}
+  FileUtil,
+{$ELSE}
   fonctions_aide,
 {$ENDIF}
 {$IFDEF TNT}
@@ -273,6 +275,7 @@ begin
   gs_sessionuser   := fs_GetUserSession;
 
   // Initialisation du composant de fabrication dynamique de fonctions
+
   p_initialisationBoutons(Self, mu_langue, scb_volet, mu_voletexplore,
                           nil, tbar_outils, tbsep_1, pa_2, CST_LARGEUR_PANEL,
                           nil, mu_ouvrir, im_Liste,
@@ -360,7 +363,7 @@ begin
   Self.HelpContext := CST_NUM_AIDE;
 
   // Si le fichier d'aide est introuvable
-  if not FileExists(Application.HelpFile) then ShowMessage('Le fichier d''aide est introuvable !');
+  if not FileExistsUTF8(Application.HelpFile) then ShowMessage('Le fichier d''aide est introuvable !');
   {$ENDIF}
 end;
 

@@ -58,15 +58,14 @@
         <PackageName Value="LCL"/>
       </Item8>
     </RequiredPackages>
-    <Units Count="390">
+    <Units Count="391">
       <Unit0>
         <Filename Value="weo.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="weo"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="26"/>
+        <TopLine Value="25"/>
         <CursorPos X="1" Y="71"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -1445,7 +1444,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="CompSuperForm"/>
-        <EditorIndex Value="14"/>
+        <EditorIndex Value="16"/>
         <WindowIndex Value="0"/>
         <TopLine Value="102"/>
         <CursorPos X="1" Y="128"/>
@@ -2684,7 +2683,7 @@
       <Unit325>
         <Filename Value="../../../ManFrames/manregister/fonctions_zeos.pas"/>
         <UnitName Value="fonctions_zeos"/>
-        <EditorIndex Value="20"/>
+        <EditorIndex Value="21"/>
         <WindowIndex Value="0"/>
         <TopLine Value="97"/>
         <CursorPos X="34" Y="129"/>
@@ -2694,7 +2693,7 @@
       <Unit326>
         <Filename Value="../../../ManFrames/manbase/fonctions_manbase.pas"/>
         <UnitName Value="fonctions_manbase"/>
-        <EditorIndex Value="22"/>
+        <EditorIndex Value="23"/>
         <WindowIndex Value="0"/>
         <TopLine Value="226"/>
         <CursorPos X="1" Y="253"/>
@@ -2728,7 +2727,7 @@
       <Unit330>
         <Filename Value="../../../ManFrames/manbase/fonctions_create.pas"/>
         <UnitName Value="fonctions_create"/>
-        <EditorIndex Value="23"/>
+        <EditorIndex Value="24"/>
         <WindowIndex Value="0"/>
         <TopLine Value="140"/>
         <CursorPos X="50" Y="164"/>
@@ -2876,8 +2875,8 @@
         <UnitName Value="U_XMLFenetrePrincipale"/>
         <EditorIndex Value="10"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="720"/>
-        <CursorPos X="1" Y="748"/>
+        <TopLine Value="269"/>
+        <CursorPos X="3" Y="279"/>
         <UsageCount Value="14"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -2989,7 +2988,7 @@
       <Unit360>
         <Filename Value="../../xmlservice/u_languagevars.pas"/>
         <UnitName Value="u_languagevars"/>
-        <EditorIndex Value="19"/>
+        <EditorIndex Value="20"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="143" Y="15"/>
@@ -3177,7 +3176,7 @@
       <Unit382>
         <Filename Value="../../../ZEOSDBO/src/dbc/ZDbcUtils.pas"/>
         <UnitName Value="ZDbcUtils"/>
-        <EditorIndex Value="21"/>
+        <EditorIndex Value="22"/>
         <WindowIndex Value="0"/>
         <TopLine Value="314"/>
         <CursorPos X="1" Y="339"/>
@@ -3188,7 +3187,7 @@
       <Unit383>
         <Filename Value="../../../Extended/inicomp/u_onforminfoini.pas"/>
         <UnitName Value="U_OnFormInfoIni"/>
-        <EditorIndex Value="18"/>
+        <EditorIndex Value="19"/>
         <WindowIndex Value="0"/>
         <TopLine Value="719"/>
         <CursorPos X="1" Y="757"/>
@@ -3197,16 +3196,17 @@
       </Unit383>
       <Unit384>
         <Filename Value="/usr/share/lazarus/1.0.12/lcl/include/customform.inc"/>
-        <EditorIndex Value="15"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="11"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1929"/>
-        <CursorPos X="1" Y="1958"/>
+        <CursorPos X="1" Y="1953"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit384>
       <Unit385>
         <Filename Value="/usr/share/lazarus/1.0.12/lcl/include/application.inc"/>
-        <EditorIndex Value="17"/>
+        <EditorIndex Value="18"/>
         <WindowIndex Value="0"/>
         <TopLine Value="2155"/>
         <CursorPos X="1" Y="2196"/>
@@ -3216,17 +3216,17 @@
       <Unit386>
         <Filename Value="../../../ManFrames/manframes/u_formmaindb.pas"/>
         <UnitName Value="u_formmaindb"/>
-        <EditorIndex Value="11"/>
+        <EditorIndex Value="12"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="301"/>
-        <CursorPos X="1" Y="328"/>
+        <TopLine Value="28"/>
+        <CursorPos X="123" Y="16"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit386>
       <Unit387>
         <Filename Value="../../../Extended/inicomp/u_formmainini.pas"/>
         <UnitName Value="U_FormMainIni"/>
-        <EditorIndex Value="12"/>
+        <EditorIndex Value="14"/>
         <WindowIndex Value="0"/>
         <TopLine Value="306"/>
         <CursorPos X="1" Y="334"/>
@@ -3236,7 +3236,7 @@
       <Unit388>
         <Filename Value="../../../Extended/inicomp/u_formadapt.pas"/>
         <UnitName Value="U_FormAdapt"/>
-        <EditorIndex Value="13"/>
+        <EditorIndex Value="15"/>
         <WindowIndex Value="0"/>
         <TopLine Value="67"/>
         <CursorPos X="1" Y="93"/>
@@ -3246,135 +3246,89 @@
       <Unit389>
         <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
         <UnitName Value="LResources"/>
-        <EditorIndex Value="16"/>
+        <EditorIndex Value="17"/>
         <WindowIndex Value="0"/>
         <TopLine Value="3080"/>
         <CursorPos X="1" Y="3113"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit389>
+      <Unit390>
+        <Filename Value="../../../ManFrames/manregister/u_register_forms.pas"/>
+        <UnitName Value="u_register_forms"/>
+        <EditorIndex Value="13"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="11"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit390>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="16" HistoryIndex="15">
       <Position1>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3078" Column="1" TopLine="3048"/>
-      </Position1>
-      <Position2>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3079" Column="1" TopLine="3048"/>
-      </Position2>
-      <Position3>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3081" Column="1" TopLine="3048"/>
-      </Position3>
-      <Position4>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3082" Column="1" TopLine="3054"/>
-      </Position4>
-      <Position5>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3085" Column="1" TopLine="3062"/>
-      </Position5>
-      <Position6>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3086" Column="1" TopLine="3062"/>
-      </Position6>
-      <Position7>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3092" Column="1" TopLine="3068"/>
-      </Position7>
-      <Position8>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3094" Column="1" TopLine="3068"/>
-      </Position8>
-      <Position9>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3095" Column="1" TopLine="3068"/>
-      </Position9>
-      <Position10>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3096" Column="1" TopLine="3068"/>
-      </Position10>
-      <Position11>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3100" Column="1" TopLine="3068"/>
-      </Position11>
-      <Position12>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3103" Column="1" TopLine="3080"/>
-      </Position12>
-      <Position13>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3106" Column="1" TopLine="3080"/>
-      </Position13>
-      <Position14>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3107" Column="1" TopLine="3080"/>
-      </Position14>
-      <Position15>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3108" Column="1" TopLine="3080"/>
-      </Position15>
-      <Position16>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3109" Column="1" TopLine="3080"/>
-      </Position16>
-      <Position17>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3111" Column="1" TopLine="3080"/>
-      </Position17>
-      <Position18>
-        <Filename Value="/usr/share/lazarus/1.0.12/lcl/lresources.pp"/>
-        <Caret Line="3112" Column="1" TopLine="3080"/>
-      </Position18>
-      <Position19>
-        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Caret Line="38" Column="103" TopLine="1"/>
-      </Position19>
-      <Position20>
-        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Caret Line="745" Column="1" TopLine="720"/>
-      </Position20>
-      <Position21>
-        <Filename Value="../../../ManFrames/manframes/u_formmaindb.pas"/>
-        <Caret Line="326" Column="1" TopLine="301"/>
-      </Position21>
-      <Position22>
-        <Filename Value="../../../ManFrames/manframes/u_formmaindb.pas"/>
-        <Caret Line="327" Column="1" TopLine="301"/>
-      </Position22>
-      <Position23>
-        <Filename Value="../../../Extended/inicomp/u_formmainini.pas"/>
-        <Caret Line="331" Column="1" TopLine="306"/>
-      </Position23>
-      <Position24>
         <Filename Value="../../../Extended/inicomp/u_formmainini.pas"/>
         <Caret Line="332" Column="1" TopLine="306"/>
-      </Position24>
-      <Position25>
+      </Position1>
+      <Position2>
         <Filename Value="../../../Extended/inicomp/u_formmainini.pas"/>
         <Caret Line="333" Column="1" TopLine="306"/>
-      </Position25>
-      <Position26>
+      </Position2>
+      <Position3>
         <Filename Value="../../../Extended/inicomp/u_formmainini.pas"/>
         <Caret Line="334" Column="1" TopLine="306"/>
-      </Position26>
-      <Position27>
-        <Filename Value="../../../ManFrames/manframes/u_formmaindb.pas"/>
-        <Caret Line="328" Column="1" TopLine="301"/>
-      </Position27>
-      <Position28>
+      </Position3>
+      <Position4>
         <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
         <Caret Line="746" Column="1" TopLine="720"/>
-      </Position28>
-      <Position29>
+      </Position4>
+      <Position5>
         <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
         <Caret Line="747" Column="1" TopLine="720"/>
-      </Position29>
-      <Position30>
+      </Position5>
+      <Position6>
         <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Caret Line="748" Column="1" TopLine="720"/>
-      </Position30>
+        <Caret Line="748" Column="1" TopLine="20"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
+        <Caret Line="235" Column="85" TopLine="230"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
+        <Caret Line="245" Column="1" TopLine="230"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
+        <Caret Line="245" Column="1" TopLine="71"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../../../ManFrames/manregister/u_register_forms.pas"/>
+        <Caret Line="1" Column="1" TopLine="11"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
+        <Caret Line="20" Column="6" TopLine="1"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
+        <Caret Line="245" Column="1" TopLine="220"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
+        <Caret Line="363" Column="20" TopLine="346"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
+        <Caret Line="214" Column="12" TopLine="196"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
+        <Caret Line="287" Column="4" TopLine="247"/>
+      </Position15>
+      <Position16>
+        <Filename Value="/usr/share/lazarus/1.0.12/lcl/include/customform.inc"/>
+        <Caret Line="1953" Column="1" TopLine="1929"/>
+      </Position16>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
@@ -3408,7 +3362,7 @@
     </Other>
   </CompilerOptions>
   <Debugging>
-    <BreakPoints Count="16">
+    <BreakPoints Count="15">
       <Item1>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
@@ -3428,7 +3382,7 @@
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Line Value="745"/>
+        <Line Value="748"/>
       </Item3>
       <Item4>
         <Kind Value="bpkSource"/>
@@ -3470,57 +3424,50 @@
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Line Value="453"/>
+        <Line Value="456"/>
       </Item9>
       <Item10>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Line Value="481"/>
+        <Line Value="484"/>
       </Item10>
       <Item11>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Line Value="526"/>
+        <Line Value="529"/>
       </Item11>
       <Item12>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Line Value="534"/>
+        <Line Value="537"/>
       </Item12>
       <Item13>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Line Value="765"/>
+        <Line Value="768"/>
       </Item13>
       <Item14>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Line Value="780"/>
+        <Line Value="783"/>
       </Item14>
       <Item15>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
-        <Source Value="../../xmlframes/u_xmlfenetreprincipale.pas"/>
-        <Line Value="245"/>
-      </Item15>
-      <Item16>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
         <Source Value="/usr/share/lazarus/1.0.12/lcl/include/customform.inc"/>
-        <Line Value="1953"/>
-      </Item16>
+        <Line Value="1958"/>
+      </Item15>
     </BreakPoints>
     <Exceptions Count="3">
       <Item1>
