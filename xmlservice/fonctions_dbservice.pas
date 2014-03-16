@@ -160,19 +160,19 @@ Begin
   if ( gs_ProjectFile = '' ) then
     Begin
       lstl_FichierIni := TStringList.Create ;
-      if not FileExistsUTF8(fs_getAppDir + fs_GetNameSoft + CST_EXTENSION_INI) Then
+      if not FileExistsUTF8(fs_getLeonDir + fs_GetNameSoft + CST_EXTENSION_INI) Then
         Begin
           raise Exception.Create ( 'No ini file of LEONARDI project !' );
           Exit;
         end;
       try
-        lstl_FichierIni.LoadFromFile( fs_getAppDir + fs_GetNameSoft + CST_EXTENSION_INI);
+        lstl_FichierIni.LoadFromFile( fs_getLeonDir + fs_GetNameSoft + CST_EXTENSION_INI);
         if ( pos ( INISEC_PAR, lstl_FichierIni [ 0 ] ) <= 0 ) Then
           Begin
             lstl_FichierIni.Insert(0,'['+INISEC_PAR+']');
-            lstl_FichierIni.SaveToFile(fs_getAppDir + CST_INI_SOFT + fs_GetNameSoft+ CST_EXTENSION_INI );
+            lstl_FichierIni.SaveToFile(fs_getLeonDir + CST_INI_SOFT + fs_GetNameSoft+ CST_EXTENSION_INI );
             lstl_FichierIni.Free;
-            raise Exception.Create ( 'New INI in '+ fs_getAppDir + CST_INI_SOFT + fs_GetNameSoft+ CST_EXTENSION_INI + '.'+#13#10+#13#10 +
+            raise Exception.Create ( 'New INI in '+ fs_getLeonDir + CST_INI_SOFT + fs_GetNameSoft+ CST_EXTENSION_INI + '.'+#13#10+#13#10 +
                           'Restart.');
             Exit;
           End;
@@ -301,8 +301,8 @@ Begin
   gs_Language := 'en';
   gs_NomApp := fs_GetNameSoft;
   if not assigned ( amif_Init ) then
-    if FileExistsUTF8(fs_getAppDir + CST_INI_SOFT + fs_GetNameSoft+ CST_EXTENSION_INI)
-      Then amif_Init := TIniFile.Create(fs_getAppDir + CST_INI_SOFT + fs_GetNameSoft+ CST_EXTENSION_INI)
+    if FileExistsUTF8(fs_getLeonDir + CST_INI_SOFT + fs_GetNameSoft+ CST_EXTENSION_INI)
+      Then amif_Init := TIniFile.Create(fs_getLeonDir + CST_INI_SOFT + fs_GetNameSoft+ CST_EXTENSION_INI)
       Else p_InitIniProjectFile;
   if assigned ( amif_Init ) Then
     Begin
